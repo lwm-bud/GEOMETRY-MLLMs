@@ -1,1 +1,1 @@
-# GEOMETEY-MLLMs
+# 几何求解相关工作
