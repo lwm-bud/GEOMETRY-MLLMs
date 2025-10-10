@@ -1,6 +1,6 @@
 # LLMs to generate geometry questions and solve it.
 
->[!note] Framework
+>[!note]
 >用LLMs接收问题并处理（优化表达、任务调度），然后采用 multi-agent 处理任务，最终根据agents的回复生成题目和答案。
 >
 >一个模态负责生成问题和答案，另一个同步进行解析是否正确或者有解
@@ -11,26 +11,21 @@
 
 - 自定义推理元词库，在限定范围的知识点中进行出题（模拟不同阶段的学习进度），降低推理难度，提升推理的准确度
 - 现有的求解方案都是将图像文本信息形式化为特定语言表示，转换的过程使用LLMs完成，后续的符号化推理根据生成的数据集完成
+## 具体步骤
+1. 生成题目
+InterGPS框架生成问题[temporary]
 
-## 1. 生成题目
-### InterGPS框架生成问题[temporary]
+2. 分析题目
 
-## 2. 分析题目
-- ### placeholder
+3. 验证是否可解
 
-## 3. 验证是否可解
-- ### placeholder
-
-## 4. 解决题目 
-### 用AUTOGPS解决问题[temporary]
-
-
-- source
-[汇总网址](https://dblp.org/)
-
+4. 解决题目 
+用AUTOGPS解决问题[temporary]
 
 
 # 文件描述
 - `summary.xlsx`相关工作总结
 
+# 资源汇总
+- [论文汇总网址](https://dblp.org/)
 
